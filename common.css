@@ -1,0 +1,145 @@
+.border
+{
+    border: 1.2px solid transparent;
+    cursor: pointer;
+    border-radius: 2px;
+    transition:all 0.2s;
+    
+    
+}
+.nav .border
+{
+    height: 55px;
+    width: 90%;
+}
+.border:hover{
+    border-color: aliceblue;
+     /* background-color: rgb(38, 38, 68);  */
+}
+.category .border
+{
+    height: 45px;
+    width: 90%;
+    /* cursor: pointer; */
+}
+.card
+{
+    width: 300px;
+    height: auto;
+    margin: 0.7rem 0;
+    background-color: #fafcfc;
+    padding: 22px;
+    position: relative;
+}
+.main-card-title
+{
+    font-weight: bold;
+    font-size: 1.16rem;
+}
+.main-card-product-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+     margin-bottom: 26px;  /*2 */
+} 
+.card-product{
+    width: 140px;
+    height: 120px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.card-product-img{
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    background-position: center ;
+}
+.card-product-title
+{
+    font-size: o.75rem;
+    padding-top: 2px;
+    transition: all 0.2s;
+}
+/* change */
+.card-product:hover .card-product-title
+{
+    font-weight: bold;
+    letter-spacing: 0.2px;
+}
+/* change */
+.card-link
+{
+    width: calc(100%-44px);
+    position: absolute;
+    bottom: 22px;
+    left:22px
+}
+/* change */
+.card-link a
+{
+    position: relative;
+    width: 100%;
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: rgb(5, 138, 164);
+}
+/* change */
+.card-link a:hover
+{
+    color: #f08503;
+    text-decoration: underline;
+}
+.slider-item{
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+.slider-item:hover{
+    opacity: 0.85;
+}
+
+.box
+{
+    margin: 28px 40px;
+}
+
+.box .boxtitle
+{
+    color: #fff;
+    padding-bottom: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.box .boxlinks a
+{
+    color: #cfd1d1;
+    font-size: 0.88rem;
+    margin-top: 7px;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.box .boxlinks a:hover
+{
+    text-decoration: underline;
+}
+
+.lang-item
+{
+    margin:0 36px;
+    display: flex;
+    align-items: center;
+}
+
+.lang-items div{
+    padding: 5px 20px 6px 12px;
+    border:1px solid #c6c6c6;
+    border-radius:3px;
+    margin: 0 6px;
+    font-size:0.9rem;
+    cursor: pointer;
+}

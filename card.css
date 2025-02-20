@@ -1,0 +1,54 @@
+/* main-card 1 */
+.card-product-img1
+{
+    background-image: url(./box_img/box1_image.jpg);
+}
+.card-product-img2
+{
+    background-image: url(./box_img/box2_image.jpg);
+}
+.card-product-img3
+{
+    background-image: url(./box_img/box3_image.jpg);
+}
+.card-product-img4
+{
+    background-image: url(./box_img/box4_image.jpg);
+}
+
+ /* main-card 2 */
+
+.card-product-img5
+{
+    background-image: url(./box_img/box5_image.jpg);  
+} 
+.card-product-img6
+{
+    background-image: url(./box_img/box6_image.jpg);  
+} 
+.card-product-img7
+{
+    background-image: url(./box_img/box7_image.jpg);  
+} 
+.card-product-img8
+{
+    background-image: url(./box_img/box8_image.jpg);  
+} 
+
+/* main-card 3 */
+.card-product-img9
+{
+    background-image: url(./box_img/box9_image.jpg);  
+} 
+.card-product-img10
+{
+    background-image: url(./box_img/box10_image.jpg);  
+} 
+.card-product-img11
+{
+    background-image: url(./box_img/box11_image.jpg);  
+} 
+.card-product-img12
+{
+    background-image: url(./box_img/box12_image.jpg);  
+} 
